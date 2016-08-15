@@ -1,0 +1,107 @@
+body {
+  background: url(http://vraja.info/mom85/index.php?cmd=image&sfpg=bWFkaGF2aS8qc3Vuc2V0LTExMjczNzVfOTYwXzcyMC5qcGcqNTFlZDUzMTgyN2JmNWNiNDc5Mzc5M2Q0ODhhNTM0Yjc) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#faq {
+    background: url(http://vraja.info/mom85/index.php?cmd=image&sfpg=bWFkaGF2aS8qb2NlYW4tODQ2MDg0Xzk2MF83MjAuanBnKjQyNWVlMjhmNjE0ZmE5OTgyOTM4YmQ3NzJkZmY1YjJl) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+li  {
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px;
+}
+
+li a:hover {
+    color: purple;
+}
+
+#navGroup {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#intro {
+    text-align: center;
+    margin-top: 120px;
+}
+
+#intro h1 {
+    color: white;
+    font-size: 100px;
+    margin-top: 150px;
+}
+
+#intro #bar {
+    margin: auto;
+    background-color: white;
+    height: 14px;
+    width: 175px;
+}
+
+#intro #slogan {
+    margin: auto;
+    color: white;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.wall {
+    background-color: white;
+    height: auto;
+    width: 640px;
+    margin: auto;
+    color: black;
+    margin-top: 85px;
+    margin-right: 609px;
+    padding-top: 30px;
+}
+
+.wall h1 {
+    text-align: center;
+}
+
+.wall p {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+ol #myList {
+    list-style-type: decimal;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.wall p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 25px;
+}
+
+.wall h2 {
+    padding: 0 0 0 15px;
+    margin-left: 11px;
+}
