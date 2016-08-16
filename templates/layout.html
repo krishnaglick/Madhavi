@@ -1,22 +1,17 @@
 <!doctype html>
 <html>
     <head>
-        <title>{% block title %}Breathwork | Relax - Release - Rejuvenate{% endblock %}</title>
-        <link rel="stylesheet" href="/static/styles.css">
+        <title>{% block title %}Flask Basics{% endblock %}</title>
+				<link rel="stylesheet" href="/static/normalize.css">
+            <link rel="stylesheet" href="/static/styles.css">
     </head>
     <body>
-        <div id="navGroup">
-            <ul>
-                <li><a href="{{ url_for('index') }}">HOME</a></li>
-                <li><a href="{{ url_for('about') }}">ABOUT MADHAVI</a></li>
-                <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
-                <li><a href="{{ url_for('faq') }}">FAQ</a></li>
-                <li><a href="{{ url_for('testimonials') }}">TESTIMONIALS</a></li>
-                <li><a href="{{ url_for('photos') }}">PHOTOS</a></li>
-                <li><a href="{{ url_for('contact') }}">CONTACT US</a></li>
-            </ul>
-        </div>
+
         {% block content %}{% endblock %}
         {% block scripts %}{% endblock %}
+        <footer>
+            <a href="https://www.youtube.com" target="_blank"><img src="http://www.championsg.com/includes/images/icon-youtube.png" class="social-icon"></a>
+            <a href="https://www.facebook.com/MadhaviGlick/" target="_blank"><img src="http://www.championsg.com/includes/images/icon-facebook2.png" class="social-icon"></a>
+        </footer>
     </body>
 </html>

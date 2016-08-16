@@ -1,6 +1,19 @@
 {% extends "layout.html" %}
 
 {% block content %}
+    <header>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">HOME</a></li>
+                    <li><a href="{{ url_for('about') }}">ABOUT MADHAVI</a></li>
+                    <li><a href="{{ url_for('videos') }}">VIDEOS</a></li>
+                    <li><a href="{{ url_for('faq') }}">FAQ</a></li>
+                    <li><a href="{{ url_for('testimonials') }}">TESTIMONIALS</a></li>
+                    <li><a href="{{ url_for('photos') }}">PHOTOS</a></li>
+                    <li><a href="{{ url_for('contact') }}" class="selected">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </header>
     <div class="wall">
         <h1>Contact Us</h1>
         <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:300px;width:700px;'><div id='gmap_canvas' style='height:300px;width:637px;'></div><div><small><a href="http://embedgooglemaps.com">Embed your Google Map here!</a></small></div><div><small><a href="https://binaireoptieservaringen.nl/plus500/">Lees hier alle ervaringen van Plus 500!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(29.793617129585726,-82.49653819236052),mapTypeId: google.maps.MapTypeId.TERRAIN};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(29.793617129585726,-82.49653819236052)});infowindow = new google.maps.InfoWindow({content:'<strong>Madhavi Glick</strong><br>Alachua, Fl 32615<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
