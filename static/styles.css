@@ -70,8 +70,11 @@ PAGE: ABOUT, ETC
     padding: 0 5%;
     text-align: center;
     margin-top: 8.5%;
-    background-color: white;
+    background-color: transparent;
     padding-top: 1%;
+}
+.wall p {
+    color: white;
 }
 
 .profile-photo {
